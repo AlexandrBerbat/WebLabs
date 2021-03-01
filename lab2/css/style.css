@@ -1,0 +1,68 @@
+body {
+    background-image: url("../img/fone.jpg");
+}
+
+.actors, header, .registration, .contacts {
+    background-color: rgba(128, 128, 128, 0.39);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+header {
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.actors {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form>* {
+    height: 30px;
+    width: 200px;
+}
+
+
+
+
+h1,h2,h3,h4,h5 {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    margin: auto;
+    font-size: 24px;
+}
+
+.choose-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#why-us {
+    color: darkred;
+}
+
+.header-img {
+    width: 205px;
+    float: right;
+    margin-right: 20px;
+}
+
