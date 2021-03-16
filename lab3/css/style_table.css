@@ -1,0 +1,78 @@
+*{
+    border: 2px solid rgb(51, 50, 50);
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-table {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    box-sizing: border-box;
+    padding: 10px;
+    height: 15%;
+    background-color: orange;
+}
+
+.footer {
+    box-sizing: border-box;
+    padding: 10px;
+    height: 15%;
+    background-color: orange;
+}
+
+.header-left-block {
+    float: left;
+    height: 70%;
+    width: 35%;
+    margin-left: 1%;
+    background-color: white;
+}
+
+.body-left-bar {
+    width: 25%;
+    background-color:royalblue;
+}
+
+.main-content {
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+    padding: 20px;
+
+    border-spacing: 20px;
+}
+
+.content-header {
+    height: 20%;
+    background-color: salmon;
+}
+
+.content-left {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    
+}
+
+
+
+.content-right {
+    width: 40%;
+}
+
+.content-left-block {
+    position: relative;
+    top: 40%;
+    height: 22%;
+    width: 101%;
+    margin-left: -2px;
+    background-color: salmon;
+}

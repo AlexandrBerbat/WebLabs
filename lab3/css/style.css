@@ -6,9 +6,9 @@
 body {
     height: 100vh;
     overflow: hidden;
-
     display: flex;
     flex-direction: column;
+
 }
 
 header {
@@ -124,6 +124,6 @@ footer {
 
     padding: 20px;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
+
