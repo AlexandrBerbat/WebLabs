@@ -1,0 +1,212 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+    /* width: 100%; */
+    font-size: 20px;
+}
+
+header {
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+
+    
+}
+
+h2 {
+    margin: 0px;
+    margin-top: 15px;
+    color: #fdfdfd;
+}
+
+h4, .course-name, .course-info {
+    margin: 0px;
+    color: #fdfdfd;
+}
+
+h1, .course-title {
+    margin: 0px;
+    margin-bottom: 30px;
+    color: #ff9735;
+}
+
+h5, .time-left {
+    margin-top: 10%;
+    color: rgb(59, 59, 255);
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-menu {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+}
+
+.menu-js, .menu-java, .menu-python {
+    height: 90%;
+    width: 400px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    height: 100%;
+    border: 1px solid #fdfdfd5d;
+    border-radius: 15px 15px 0px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding: 10px
+}
+.info>div {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    margin-top: 5%;
+    margin-bottom: -7%;
+}
+
+.info-active {
+    border: #ff9735 solid 1px;
+}
+
+.time-left {
+    margin-top: 20%;
+    
+}
+
+
+.menu-btn {
+    height: 20%;
+    border: 1px solid #fdfdfd5d;
+    border-radius: 0px 0px 15px 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+
+.photoshoot {
+    height: 20%;
+    background-color: rgba(59, 59, 255, 0.87);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 5%;
+
+    box-sizing: border-box;
+    padding: 5% 0px;
+}
+
+
+.worker {
+    /* width: 200px;
+    height: 140px; */
+
+    width: 20%;
+    height: 30%;
+    border-radius: 5%;
+}
+
+.happy {
+    
+    width: 400px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 80px; */
+    box-sizing: border-box;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    box-sizing: border-box;
+    padding: 0px 80px 80px 80px;
+    /* padding-left: 80px; */
+    font-size: 20px;
+}
+
+.content-right h3 {
+    color: orangered
+}
+
+.content-right-block {
+    border: 5px solid gainsboro;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: orangered  rgba(59, 59, 255, 0.87)  rgba(59, 59, 255, 0.87) orangered;
+}
+
+footer {
+    height: 80px;
+    background-color: orangered;
+
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.footer-logo {
+    width: 40px;
+    margin-right: 20px;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 30px;
+    
+}
+
+.footer-right {
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 40px;
+}
+
+.footer-words {
+    color: #fdfdfd;
+}
+
